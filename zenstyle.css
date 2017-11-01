@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+header {
+    background: #004F2D;
+    padding: 10px;
+}
+h1{
+    color: #fff;
+    font-size: 3em;
+}
+h2{
+    color: #fff;
+    font-size: 1.5em;
+}
+.summary{
+    background: #0A8754;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 20px;
+}
+.summary a{
+    color:#63D471;
+}
+.preamble{
+    background:#508CA4;
+    color: #fff;
+    font-size: 1.2em;
+        padding: 20px;
+}
+.main {
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: 1000px;
+    height: 950px;
+    margin: auto;
+}
+.main a{color:#63D471}
+.design-selection{
+    background: #508CA4;
+        padding: 20px;
+}
+.design-selection a{color:#63D471}
+
+.design-archives{
+    background: #0A8754;
+        padding: 20px;
+}
+.design-archives a{color: #63D471}
+
+.zen-resources{
+    background: #004F2D;
+        padding: 20px;
+}
+.zen-resources a{color:#63D471}
+
+.wrapper h3{color: #fff;}
+/*a{*/
+    /*text-decoration: none;*/
+    /*color:#63D471;*/
+/*}*/
+
+
+
