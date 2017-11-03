@@ -1,0 +1,81 @@
+body {
+    background-color: #2e0f6d;
+    color:#ffffff;
+    font-family: "Franklin Gothic Medium";
+}
+h1{
+    text-align: center;
+    position: relative;
+}
+h1{
+    transition:1s;
+}
+}
+h1:hover{
+    position:relative;
+
+}
+h1:hover:after{
+    content:url("images/theLadiesMan.jpg");
+    display:block;
+    position:absolute;
+    left:350px;
+    top:56px;
+    border-radius: 25px;
+}
+
+@keyframes grow{
+    	100%{transform:scale(1.3);}
+}
+li img:hover{
+    animation-name: grow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+a{
+    text-decoration: none;
+    color:#cc0099;
+}
+img {
+    height: 350px;
+}
+
+td:hover img {
+    display: block;
+}
+td img{
+    display: none;
+}
+tv img{
+    display: none;
+}
+tv:hover img{
+    display: table-cell;
+}
+/*td {*/
+    /*display: flex;*/
+/*}*/
+
+@keyframes bounce{
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(1.4)
+    }
+}
+a{
+    transition:1s;
+}
+a:hover{
+    color:#e8f442;
+    font-size: larger;
+    animation: bounce .5s 2;
+}
+
+.flexbox{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
